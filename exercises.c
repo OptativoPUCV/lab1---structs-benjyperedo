@@ -160,5 +160,5 @@ Nodo *crearListaEnlazada(int arr[], int size)
       else actual->siguiente = temp;
       actual = temp;
     }  
-  return NULL; 
+  return cabeza; 
 }
