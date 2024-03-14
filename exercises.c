@@ -60,10 +60,9 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
       {
         newArr[j] = arr[i];
         j++;
-        cont++;
       }
     }
-  *newSize = cont;
+  *newSize = j;
   return newArr;
 }
 
