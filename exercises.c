@@ -51,7 +51,7 @@ newsize apunta a una dirección válida que no ha sido inicializada con nigún v
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize) 
 {
-  int *newArr = (int *) malloc(sizeof(int) * size);
+  int *newArr = (int *) realloc(sizeof(int));
   int j = 0;
   int cont = 0;
   for (int i = 0; i < size; i++)
@@ -74,7 +74,12 @@ ordenados de menor a mayor y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado de menor a mayor.
 */
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
-                       int result[]) {}
+                       int result[]) 
+{
+  
+  
+
+}
 
 /*
 Ejercicio 5: Comprobación de Ordenación
